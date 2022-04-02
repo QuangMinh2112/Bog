@@ -131,15 +131,15 @@ nav.main-menu ul.list_menu li a:hover{
 }
 
 .slide-1 {
-    background-image: url("/assets/image/bg-1.jpg");
+    background-image: url("../image/bg-1.jpg");
 }
 
 .slide-2 {
-    background-image: url("/assets/image/bg-2.jpg");
+    background-image: url("../image/bg-2.jpg");
 }
 
 .slide-3 {
-    background-image: url("/assets/image/bg-3.jpg");
+    background-image: url("../image/bg-3.jpg");
 }
 
 .slide-content {
