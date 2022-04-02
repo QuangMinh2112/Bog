@@ -1,0 +1,122 @@
+@media (max-width: 530px) {
+    .text{
+        display: none;
+    }
+    .container_box .card_box{
+        width: 100%;
+    }
+    #wrapper_introduce{
+        width: 100%;
+        height:auto;
+        margin-top: 110px;
+    }
+}
+
+
+@media (max-width:800px){
+    .navbar_container{
+        display:none;
+    }
+    nav.main-menu ul.list_menu{
+        display:none;
+    }
+    .slide-content{
+        display:none;
+    }
+    .navbar_toggle{
+        display:block;
+    }
+    .logo img{
+        margin-bottom: 52px;
+    }
+    .btn_apply{
+        display:none;
+    }
+    #banner_card .banner_container{
+        padding-top: 1100px;
+    }
+    #wrapper_introduce{
+        margin-top:20px;
+    }
+}
+
+@media (max-width:670px){
+    #banner_card .banner_container{
+        padding-top: 1100px;
+    }
+}
+@media (max-width:768px){
+    .navbar_container{
+        display:none;
+    }
+    nav.main-menu ul.list_menu{
+        display:none;
+    }
+    .slide-content{
+        display:none;
+    }
+    .navbar_toggle{
+        display:block;
+    }
+    .logo img{
+        margin-bottom: 52px;
+    }
+    .btn_apply{
+        display:none;
+    }
+    #banner_card .banner_container{
+        padding-top: 700px;
+    }
+    #wrapper_introduce{
+        margin-top:20px;
+    }
+    .job_list_item{
+        justify-content: center;
+    }
+    .box_2{
+        flex-direction:column;
+    }
+    .box-head:nth-child(2){
+        margin-top: 20px;
+        margin-left: 0; 
+       
+    }
+    .box-head:nth-child(1){
+        margin-top: 20px;
+        margin-left: 0; 
+       
+    }
+   
+}
+
+@media (max-width:992px){ 
+    .navbar_container{
+        display:none;
+    }
+    nav.main-menu ul.list_menu{
+        display:none;
+    }
+    .slide-content{
+        display:none;
+    }
+    .navbar_toggle{
+        display:block;
+    }
+    .logo img{
+        margin-bottom: 52px;
+    }
+    .btn_apply{
+        display:none;
+    }
+   
+    #wrapper_introduce{
+        margin-top:140px;
+    }
+    .job_list_item{
+        justify-content: center;
+    }
+    #banner_card .banner_container{
+        padding-top: 1100px;
+    }
+}
+
