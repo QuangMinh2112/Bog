@@ -53,6 +53,7 @@ const linkedinBtn = document.querySelector(".linkedin-btn");
 
 function init() {
   const pinterestImg = document.querySelector(".pinterest-img");
+  pinterestImg.style.maxHeight = "500px";
 
   let postUrl = encodeURI(document.location.href);
   let postTitle = encodeURI("Hi everyone, please check this out: ");
