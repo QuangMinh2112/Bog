@@ -694,7 +694,7 @@ nav.main-menu ul.list_menu li a:hover{
 } 
   
 .to-top.active {
-    bottom:50px;
+    bottom:100px;
     pointer-events: auto;
     opacity:1;
 }
