@@ -1,7 +1,5 @@
 @media (max-width: 530px) {
-    .text{
-        display: none;
-    }
+    
     .container_box .card_box{
         width: 100%;
     }
