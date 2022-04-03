@@ -69,20 +69,12 @@ function init() {
     `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
   );
 
-  pinterestBtn.setAttribute(
-    "href",
-    `https://pinterest.com/pin/create/bookmarklet/?media=${postImg}&url=${postUrl}&description=${postTitle}`
-  );
-
   linkedinBtn.setAttribute(
     "href",
     `https://www.linkedin.com/shareArticle?url=${postUrl}&title=${postTitle}`
   );
 
-  whatsappBtn.setAttribute(
-    "href",
-    `https://wa.me/?text=${postTitle} ${postUrl}`
-  );
+ 
 }
 
 init();
