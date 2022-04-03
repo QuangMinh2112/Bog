@@ -10,6 +10,15 @@
         height:auto;
         margin-top: 110px;
     }
+    .container_form .form_apply .form-group{
+        flex-direction:column;
+    }
+    .container_form .form_apply .form-group input#lastname,#numberOfDesks{
+        margin-left: 0px;
+    }
+    .container_form{
+        margin: 0px 15px;
+    }
 }
 
 
@@ -86,6 +95,15 @@
         margin-left: 0; 
        
     }
+    .container_form .form_apply .form-group{
+        flex-direction:column;
+    }
+    .container_form .form_apply .form-group input#lastname,#numberOfDesks{
+        margin-left: 0px;
+    }
+    .container_form{
+        margin: 0px 15px;
+    }
    
 }
 
@@ -117,6 +135,15 @@
     }
     #banner_card .banner_container{
         padding-top: 1100px;
+    }
+    .container_form .form_apply .form-group{
+        flex-direction:column;
+    }
+    .container_form .form_apply .form-group input#lastname,#numberOfDesks{
+        margin-left: 0px;
+    }
+    .container_form{
+        margin: 0px 15px;
     }
 }
 

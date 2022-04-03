@@ -3,7 +3,7 @@
     height:auto;
     background-color:#9cb4a9;
     position:fixed;
-    z-index: 2;
+    z-index: 200;
     top:-60;
     -webkit-transition: all .7s ease-in-out;
     -moz-transition: all .7s ease-in-out;
@@ -81,9 +81,10 @@
 .text p{
     opacity: 0.5;
     margin:10px auto;
-    width: 700px;
+    max-width: 700px;
     height:120px;
     line-height:30px;
+
 }
 .background{
     margin-top: 40px;
@@ -106,7 +107,10 @@
 .title{
     border-bottom: 1px solid #ccc;
 }
-
+.title h1{
+    margin-bottom: 21px;
+    font-size: 25px;
+}
 .box_content{
     width: 360px;
     height:160px;
@@ -126,6 +130,7 @@
 .box_content .box_text{
     text-align: center;
     padding:50px 0;
+    line-height:35px;
 }
 .container_images{
     max-width: 100%;
@@ -184,36 +189,36 @@
 .img-1{
     grid-area: img-1;
     min-height: 515px;
-    background-image: url('/Project/assets/image/img-1.jpg');
+    background-image: url('../image/img-1.jpg');
 }
 .img-2{
     grid-area: img-2;
-    background-image: url('/Project/assets/image/img-2.jpg');
+    background-image: url('../image/img-2.jpg');
 }
 .img-3{
     grid-area: img-3;
-    background-image: url('/Project/assets/image/img-3.jpg');
+    background-image: url('../image/img-3.jpg');
 }
 .img-4{
     grid-area: img-4;
-    background-image: url('/Project/assets/image/img-4.jpg');
+    background-image: url('../image/img-4.jpg');
 }
 .img-5{
     grid-area: img-5;
-    background-image: url('/Project/assets/image/img-5.jpg');
+    background-image: url('../image/img-5.jpg');
 }
 .img-6{
     grid-area: img-6;
     min-height:515px;
-    background-image: url('/Project/assets/image/img-6.jpg');
+    background-image: url('../image/img-6.jpg');
 }
 .img-7{
     grid-area: img-7;
-    background-image: url('/Project/assets/image/img-7.jpg');
+    background-image: url('../image/img-7.jpg');
 }
 .img-8{
     grid-area: img-8;
-    background-image: url('/Project/assets/image/img-8.jpg');
+    background-image: url('../image/img-8.jpg');
 }
 
 @media screen and (max-width:900px) {
@@ -250,6 +255,7 @@
     font-family: 'Raleway', sans-serif;
     color:#000;
     padding: 20px 0;
+    width:100%;
 }
 .text p{
     line-height:25px;

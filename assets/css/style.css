@@ -308,6 +308,7 @@ nav.main-menu ul.list_menu li a:hover{
 #banner_card .banner_container ul.spinner{
     display:flex;
     justify-content:center;
+    flex-wrap: wrap;
 }
 #banner_card .banner_container ul.spinner li{
     width: 200px;
@@ -321,7 +322,7 @@ nav.main-menu ul.list_menu li a:hover{
     color: #f7f8f8;
 }
 .text{
-    width: 650px;
+    max-width: 650px;
     text-align:center;
     margin:0 auto;
 }
@@ -537,36 +538,36 @@ nav.main-menu ul.list_menu li a:hover{
 .img-1{
     grid-area: img-1;
     min-height: 515px;
-    background-image: url('/Project/assets/image/img-1.jpg');
+    background-image: url('../image/img-1.jpg');
 }
 .img-2{
     grid-area: img-2;
-    background-image: url('/Project/assets/image/img-2.jpg');
+    background-image: url('../image/img-2.jpg');
 }
 .img-3{
     grid-area: img-3;
-    background-image: url('/Project/assets/image/img-3.jpg');
+    background-image: url('../image/img-3.jpg');
 }
 .img-4{
     grid-area: img-4;
-    background-image: url('/Project/assets/image/img-4.jpg');
+    background-image: url('../image/img-4.jpg');
 }
 .img-5{
     grid-area: img-5;
-    background-image: url('/Project/assets/image/img-5.jpg');
+    background-image: url('../image/img-5.jpg');
 }
 .img-6{
     grid-area: img-6;
     min-height:515px;
-    background-image: url('/Project/assets/image/img-6.jpg');
+    background-image: url('../image/img-6.jpg');
 }
 .img-7{
     grid-area: img-7;
-    background-image: url('/Project/assets/image/img-7.jpg');
+    background-image: url('../image/img-7.jpg');
 }
 .img-8{
     grid-area: img-8;
-    background-image: url('/Project/assets/image/img-8.jpg');
+    background-image: url('../image/img-8.jpg');
 }
 
 @media screen and (max-width:900px) {
