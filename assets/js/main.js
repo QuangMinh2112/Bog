@@ -16,7 +16,7 @@ function myFunction() {
     }
   }
 
-
+//Scroll header
 window.onscroll = function(){
     scroll();
 }
@@ -24,13 +24,12 @@ window.onscroll = function(){
 function scroll() {
     if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
         document.getElementById("header").style.top = "0";
-        console.log("oke");
         
     }else{
         document.getElementById("header").style.top = "-60px";
     }
 }
-
+// End scroll header
 
 $(document).ready(function(){
   $(".navbar_toggle").click(function(){
@@ -78,3 +77,5 @@ function init() {
 }
 
 init();
+
+
