@@ -908,6 +908,13 @@ ol,ul{
     font-size: 20px;
 }
 .popular-content a:hover{
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.popular-content a:hover{
     text-decoration: underline;
     cursor: pointer;
 }

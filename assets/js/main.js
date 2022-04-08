@@ -55,7 +55,14 @@ btnSeeAll.forEach(function(e) {
 const facebookBtn = document.querySelector(".facebook-btn");
 const twitterBtn = document.querySelector(".twitter-btn");
 const linkedinBtn = document.querySelector(".linkedin-btn");
-
+//Header btn Handle 
+var liNodes = document.querySelectorAll('.list_menu li a')
+// console.log(liNodes);
+liNodes.forEach(function(e){
+  e.addEventListener("click",()=>{
+    alert("Hiện tại trang header đang cập nhật thêm thông tin , các bạn có thể theo dõi thêm thông tin trên thanh (NAV)");
+  })
+})
 function init() {
   const pinterestImg = document.querySelector(".pinterest-img");
   pinterestImg.style.maxHeight = "500px";
