@@ -45,7 +45,7 @@
     <nav class="navbar_container">
       <ul class="nav_menu">
         <li><a href="">News</a></li>
-        <li><a href="">Events</a></li>
+        <li><a href="./events.html">Events</a></li>
         <li><a href="./index.html">Space</a></li>
         <li><a href="">Progams</a></li>
       </ul>
@@ -57,7 +57,7 @@
     <!-- Start Header -->
     <div id="header">
       <div class="container d_flex">
-        <a href="" class="logo">
+        <a href="./index.html" class="logo">
           <img src="./assets/image/logo.png" alt="" />
         </a>
         <nav class="main-menu">
@@ -88,7 +88,7 @@
     <!-- End Header -->
 
     <!-- Start table -->
-    <table class="content-table">
+    <table class="content-table" data-aos="flip-up">
         <thead>
           <tr>
             <th></th>
@@ -234,6 +234,26 @@
               <div class="box-head">
                 <h1>TNW</h1>
                 <span>The heart of tech</span>
+                <div
+              class="fb-page"
+              data-href="https://www.facebook.com/MindX.School"
+              data-tabs="timeline"
+              data-width=""
+              data-height="100"
+              data-small-header="false"
+              data-adapt-container-width="true"
+              data-hide-cover="false"
+              data-show-facepile="true"
+            >
+              <blockquote
+                cite="https://www.facebook.com/MindX.School"
+                class="fb-xfbml-parse-ignore"
+              >
+                <a href="https://www.facebook.com/MindX.School"
+                  >MindX Technology School</a
+                >
+              </blockquote>
+            </div>
               </div>
               <div class="icon_footer">
                 <ul>
@@ -286,6 +306,36 @@
     <i class="fas fa-chevron-up"></i>
     </a>
    <!-- End back to top -->
+   <!-- Messenger Plugin chat Code -->
+   <div id="fb-root"></div>
+
+   <!-- Your Plugin chat code -->
+   <div id="fb-customer-chat" class="fb-customerchat">
+   </div>
+
+   <script>
+     var chatbox = document.getElementById('fb-customer-chat');
+     chatbox.setAttribute("page_id", "107503611647668");
+     chatbox.setAttribute("attribution", "biz_inbox");
+   </script>
+
+   <!-- Your SDK code -->
+   <script>
+     window.fbAsyncInit = function() {
+       FB.init({
+         xfbml            : true,
+         version          : 'v13.0'
+       });
+     };
+
+     (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+   </script>
   </body>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

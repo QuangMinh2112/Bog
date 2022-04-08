@@ -43,7 +43,13 @@ $(document).ready(function(){
     $(".responsive_menu").slideUp();
   });
 })
-
+//Events.html
+const btnSeeAll = document.querySelectorAll('.btn-click');
+btnSeeAll.forEach(function(e) {
+    e.addEventListener("click",()=>{
+      alert("Hiện tại trang web chúng tôi chưa cập nhật thông tin mới. Xin vui lòng quay lại sau !");
+    })
+});
 
 // Share btn
 const facebookBtn = document.querySelector(".facebook-btn");

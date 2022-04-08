@@ -102,7 +102,12 @@
     .container_form{
         margin: 0px 15px;
     }
-   
+   .wrapper_box{
+    justify-content: center;
+   }
+   .intro_content{
+       display:none;
+   }
 }
 
 @media (max-width:992px){ 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="a" x1="64.37715" y1="40.02454" x2="64.37715" y2="118.02454" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f42"></stop>
+      <stop offset="0.75" stop-color="#ce0394"></stop>
+    </linearGradient>
+    <linearGradient id="b" x1="64" y1="57.06157" x2="64" y2="118.02454" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#609"></stop>
+      <stop offset="1" stop-color="#c09"></stop>
+    </linearGradient>
+    <linearGradient id="c" x1="64" y1="57.06157" x2="64" y2="77.06157" xlink:href="#a"></linearGradient>
+  </defs>
+  <title>partner-corporates</title>
+  <g opacity="0.15">
+    <circle cx="64" cy="64" r="60" fill="#0cc"></circle>
+  </g>
+  <path d="M20.37715,40.02454h88a8,8,0,0,1,8,8v66a4,4,0,0,1-4,4h-96a4,4,0,0,1-4-4v-66a8,8,0,0,1,8-8Z" fill="url(#a)"></path>
+  <rect x="12.42516" y="51.93843" width="103.95199" height="4.89046" fill="#609" opacity="0.5"></rect>
+  <path d="M64.5,19.93843a29.89457,29.89457,0,0,1,14.40466,3.54339A29.11129,29.11129,0,0,1,81,34.43843V57.06157h9V38.43843c0-5.71413-3.31814-11.15781-8.95646-14.84054a5.85277,5.85277,0,0,1-2.0245-2.27852C75.78887,14.87372,70.34849,10.93843,64.5,10.93843h-1c-5.84849,0-11.28887,3.93529-14.519,10.38094a5.85277,5.85277,0,0,1-2.0245,2.27852C41.31814,27.28062,38,32.7243,38,38.43843V57.06157h9V34.43843a29.11129,29.11129,0,0,1,2.09534-10.95661A29.89457,29.89457,0,0,1,63.5,19.93843Z" fill="#fba"></path>
+  <rect x="38" y="57.06157" width="52" height="60.96296" fill="url(#b)"></rect>
+  <path d="M90,70.15566a3.987,3.987,0,0,1-2.87153,3.83821A84.754,84.754,0,0,1,64,77.06157a84.754,84.754,0,0,1-23.12847-3.0677A3.987,3.987,0,0,1,38,70.15566V57.06157H90Z" fill="url(#c)"></path>
+  <circle cx="64" cy="67.06157" r="3.12959" fill="#fda"></circle>
+</svg>
